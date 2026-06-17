@@ -37,7 +37,7 @@ After training, the notebook produces two diagnostic visualizations: a layer-by-
 ---
 
 ## Dataset
-
+**Dataset Link:** https://archive.ics.uci.edu/dataset/280/higgs
 **Name:** HIGGS Dataset  
 **Source:** UCI Machine Learning Repository  
 **File format:** `HIGGS.csv.gz` (gzip-compressed CSV, ~2.6 GB compressed)  
