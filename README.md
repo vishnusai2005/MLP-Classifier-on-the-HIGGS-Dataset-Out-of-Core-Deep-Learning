@@ -274,12 +274,13 @@ Progressively narrowing layers force the network to distill information. Early l
 
 ## Tech Stack
 
-| Library | Version (tested) | Role |
-|---------|-----------------|------|
+| Library / Technique | Version (tested) | Role |
+|---------------------|-----------------|------|
 | Python | 3.9+ | Language |
 | NumPy | 1.24+ | Matrix operations, forward pass |
 | Pandas | 1.5+ | Chunked CSV ingestion |
 | scikit-learn | 1.2+ | MLP model, StandardScaler |
+| **Neural Networks — MLP Classifier** | **scikit-learn `MLPClassifier`** | **Core model: 3-hidden-layer feedforward network (400 → 200 → 100 → 1) trained with ReLU activations, Adam optimizer, and L2 regularization via incremental `partial_fit` across 11M samples** |
 | Matplotlib | 3.7+ | Figure layout and export |
 | Seaborn | 0.12+ | Heatmaps and distribution plots |
 
